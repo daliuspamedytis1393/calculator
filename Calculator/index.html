@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+  <main>
+  <button id="power" class="stylebutton" onclick="powerButton()"><i class="fas fa-power-off"></i></button>
+  <div class="col row text-center" id="input-window">
+    <p id="DEMO"></p>
+  </div>
+
+  <h3>ENTER NUMBERS</h3>
+  <form  action="/action_page.php">
+  <input class="a1" id="num1" type="number" name="fnumber"><br>
+  <br>
+  <input class="a2" id="num2" type="number" name="snumber"><br>
+  <br>
+  <h3>PRESS:</h3>
+</form>
+  <div id="clickas"class="Btn">
+    <button id="sum" class="a3" type="button" name="suma">+</button>
+    <button id="min" class="a4" type="button" name="atimtis">-</button>
+    <button id="mul" class="a5" type="button" name="daugyba">*</button>
+    <button id="div" class="a6" type="button" name="dalyba">/</button>
+    <button id="liek" class="a7" type="button" name="liekana">%</button>
+    <button id="clear"  class="a8"class="aluminum square" name="trintuvas" onclick="clearButton()">C</button>
+  </div>
+
+</main>
+
+  <script src="java.js"></script>
+  </body>
+</html>

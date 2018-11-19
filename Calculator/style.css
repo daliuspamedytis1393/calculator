@@ -1,0 +1,119 @@
+html {
+  font-family: Arial Verdana;
+}
+body {
+  align-items: center;
+  text-align: center;
+  font-family: arial;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 100;
+}
+main {
+  background-image: url(https://ak9.picdn.net/shutterstock/videos/18932999/thumb/1.jpg);
+  opacity: 0.9;
+  background-size: cover;
+  margin: 0 auto;
+  width: 26%;
+  border-radius: 60px;
+  height: 900px;
+  color: rgba(0, 0, 0, 0.9);
+  height: 600px;
+  box-shadow: 10px 10px 5px grey;
+  animation-name: picImage;
+  animation-duration: 0.9s;
+  animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+  animation-fill-mode: both;
+  animation-delay: 1s;
+}
+main h1 {
+  padding: 20px;
+}
+form {
+  display: inline;
+}
+.Btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+@keyframes picImage {
+  from {
+    opacity: 0;
+    transform: scale(1.9) translateY(-2rem);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+button {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 20px;
+  margin: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  transition: all 1;
+}
+input {
+  padding: 12px 12px 12px 12px;
+  max-width: 40px;
+  border-radius: 50%;
+  transition: all 1s ease;
+  font-size: 15px;
+}
+button:hover {
+  background-color: grey;
+  transition: all 0.1s ease;
+  color: black;
+  border: none;
+  padding: 20px;
+  border: 50%;
+  cursor: pointer;
+  animation-name: slideUp;
+  animation-duration: 0.6s;
+  animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+  animation-fill-mode: both;
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(0.2rem);
+  }
+}
+button:active {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 20px;
+  border: 50%;
+  cursor: crosshair;
+  color: rgba(0, 102, 204, 1);
+  box-shadow: 1px 1px 10px rgba(0, 102, 204, 1);
+}
+
+.aluminum:active {
+  color: rgba(0, 102, 204, 1);
+  box-shadow: 1px 1px 10px rgba(0, 102, 204, 1);
+}
+.col {
+  background-color: white;
+  width: 280px;
+  font-size: 60px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 10px;
+  transition: all 1s ease;
+}
+#DEMO {
+  margin: 0 auto;
+  text-align: center;
+}
